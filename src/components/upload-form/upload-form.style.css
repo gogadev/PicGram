@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap");
+
+form {
+  margin: 20px auto 10px;
+  text-align: center;
+}
+
+label input {
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+
+label {
+  font-family: "Antic Slab", serif;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border: 1px solid var(--primary);
+  border-radius: 50%;
+  margin: 0 auto;
+  line-height: 45px;
+  color: var(--primary);
+  font-weight: bold;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+label:hover {
+  background: var(--primary);
+  color: white;
+}
+
+.output {
+  height: 60px;
+  font-size: 0.8rem;
+}
+
+.error {
+  color: var(--error);
+}

@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+:root {
+  --primary: #efb6b2;
+  --secondary: #4e4e4e;
+  --error: #ff4a4a;
+}
+
+body,
+input,
+button {
+  font-family: "Parisienne", cursive;
+  color: var(--secondary);
+}
+
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
